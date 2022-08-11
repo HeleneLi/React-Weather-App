@@ -1,9 +1,11 @@
+import React from "react";
 import "./styles.css";
 import Search from "./Search";
 
 export default function App() {
   return (
     <div className="App">
+      <div className="container">
       <h1>Weather Search Engine</h1>
       <Search />
       <br></br>
@@ -13,6 +15,7 @@ export default function App() {
         open-sourced on Github
         </a>
       </footer>
+    </div>
     </div>
   );
 }
